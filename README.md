@@ -81,8 +81,7 @@ logistics/
 │       ├── contexts/         authentification
 │       ├── lib/api.js        client API et conversion camel/snake case
 │       └── pages/            accueil et dashboards par rôle
-├── LANCER_SITE.bat           lancement Windows simplifié
-└── AUDIT_LOGISTICS_2026-08-12.md
+└── LANCER_SITE.bat           lancement Windows simplifié
 ```
 
 ## Stack technique
@@ -107,8 +106,6 @@ logistics/
 - validation et autorisation des tickets liés aux colis ;
 - rate limiting sur la connexion, l’inscription, le suivi et la validation PIN ;
 - timeout frontend sans retry automatique des mutations.
-
-Le rapport détaillé est disponible dans [`AUDIT_LOGISTICS_2026-08-12.md`](./AUDIT_LOGISTICS_2026-08-12.md).
 
 ## Prérequis
 
@@ -253,4 +250,3 @@ VITE_API_URL=http://127.0.0.1:8000/api
 ## Auteur
 
 Développé par [Seef590](https://github.com/Seef590) comme projet full-stack de portfolio.
-
