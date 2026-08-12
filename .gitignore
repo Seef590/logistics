@@ -1,0 +1,33 @@
+﻿# Secrets et configurations locales
+.env
+.env.*
+!.env.example
+backend-new/.env
+frontend/.env
+
+# Dépendances
+backend-new/vendor/
+frontend/node_modules/
+
+# Base SQLite locale
+backend-new/database/*.sqlite
+backend-new/database/*.sqlite-*
+
+# Laravel runtime
+backend-new/storage/logs/*
+backend-new/storage/framework/cache/*
+backend-new/storage/framework/sessions/*
+backend-new/storage/framework/views/*
+backend-new/bootstrap/cache/*.php
+backend-new/.phpunit.result.cache
+backend-new/public/storage
+
+# Build frontend
+frontend/dist/
+
+# Fichiers temporaires
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
